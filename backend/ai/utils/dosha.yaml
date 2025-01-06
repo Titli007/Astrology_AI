@@ -1,0 +1,212 @@
+doshas:
+  - name: "Mangal Dosha"
+    solutions:
+      - "Marriage to another Mangal Dosha individual"
+      - "Perform Mangal Dosh Nivaran Puja"
+      - "Recite Mangal Stotra or Mangal mantra ('Om Angarakaya Namah')"
+      - "Wear a coral gemstone after consultation with an astrologer"
+      - "Donate red clothes, lentils, and copper"
+
+  - name: "Kaal Sarp Dosha"
+    solutions:
+      - "Perform the Kaal Sarp Dosh Puja"
+      - "Recite the Kaal Sarp Dosh mantra ('Om Namah Shivaya')"
+      - "Wear gomedh (hessonite) gemstone"
+      - "Offer white flowers, milk, and water to the snake deity on Nag Panchami"
+
+  - name: "Pitra Dosha"
+    solutions:
+      - "Perform Pitra Tarpan during Pitru Paksha"
+      - "Donate to the needy in honor of ancestors"
+      - "Recite the Pitra Dosha Nivaran mantra ('Om Pitru Devaya Namah')"
+      - "Offer water and sesame seeds regularly"
+
+  - name: "Shani Dosha"
+    solutions:
+      - "Perform Shani Dosh Nivaran Puja"
+      - "Recite the Shani mantra ('Om Sham Shanicharaya Namah')"
+      - "Wear a blue sapphire gemstone after consulting an astrologer"
+      - "Offer black sesame seeds and oil to a Shani temple on Saturdays"
+      - "Help the elderly"
+
+  - name: "Rahu Dosha"
+    solutions:
+      - "Recite the Rahu mantra ('Om Raam Rahve Namah')"
+      - "Offer black sesame seeds, mustard oil, or blue flowers on Saturdays"
+      - "Wear a hessonite (gomed) gemstone"
+      - "Donate black items (clothes, sesame seeds)"
+
+  - name: "Ketu Dosha"
+    solutions:
+      - "Recite the Ketu mantra ('Om Ketave Namah')"
+      - "Wear a cat's eye gemstone after consulting an astrologer"
+      - "Offer white flowers and sweets to the deity associated with Ketu"
+      - "Donate to orphanages or provide service to the underprivileged"
+
+  - name: "Buddh Dosh"
+    solutions:
+      - "Recite the Mercury mantra ('Om Bum Budhaya Namah')"
+      - "Wear an emerald gemstone after consultation with an astrologer"
+      - "Offer green vegetables or seeds as charity"
+      - "Engage in activities requiring mental stimulation"
+
+  - name: "Gandmool Dosh"
+    solutions:
+      - "Perform Gandmool Dosh Nivaran Puja"
+      - "Recite the Gandmool Dosh mantra or pray to the Moon God"
+      - "Offer white flowers and rice to appease the Moon"
+      - "Maintain positive rituals for mental peace"
+
+  - name: "Vastu Dosha"
+    solutions:
+      - "Perform Vastu Shanti Puja"
+      - "Consult a Vastu expert for redesign suggestions"
+      - "Place crystals to improve energy flow"
+      - "Align the main entrance and rooms according to Vastu principles"
+      - "Rectify Vastu by rearranging the house"
+      - "Place auspicious objects"
+
+  - name: "Nadi Dosha"
+    solutions:
+      - "Recite Nadi Dosha mantra"
+      - "Perform Nadi Dosh Nivaran Puja"
+      - "Consult an astrologer for specific remedies"
+
+  - name: "Dhan Dosha"
+    solutions:
+      - "Recite the Lakshmi Stotra or Dhan mantra"
+      - "Donate to poor and needy people"
+      - "Keep the house clean and clutter-free"
+      - "Perform Lakshmi Puja for wealth and prosperity"
+
+  - name: "Chandra Dosha"
+    solutions:
+      - "Recite the Chandra mantra ('Om Chandraya Namah')"
+      - "Wear a pearl gemstone after consulting an astrologer"
+      - "Offer white flowers and milk to the Moon"
+      - "Donate food to the poor and needy"
+      - "Engage in meditation practices"
+
+  - name: "Surya Dosha"
+    solutions:
+      - "Recite the Surya mantra ('Om Suryaya Namah')"
+      - "Wear a ruby gemstone after consultation with an astrologer"
+      - "Offer water to the Sun every morning"
+      - "Perform Surya Puja on Sundays"
+
+  - name: "Rahu-Ketu Dosha"
+    solutions:
+      - "Recite the Rahu-Ketu mantra"
+      - "Offer red and white flowers to Rahu and Ketu"
+      - "Perform Rahu-Ketu Puja"
+
+  - name: "Yogini Dosha"
+    solutions:
+      - "Recite the Yogini Dosha mantra"
+      - "Engage in positive energy rituals and prayers"
+      - "Consult an astrologer for more personalized solutions"
+
+  - name: "Moksha Dosha"
+    solutions:
+      - "Perform rituals that promote spiritual growth"
+      - "Recite mantras for Moksha and inner peace"
+      - "Donate to spiritual causes and temples"
+
+  - name: "Vidhwansha Dosha"
+    solutions:
+      - "Recite the Vidhwansha mantra"
+      - "Perform Vidhwansha Dosha Puja"
+      - "Engage in spiritual practices to eliminate the effects"
+
+  - name: "Rajat Dosha"
+    solutions:
+      - "Offer silver items to the temple or to the poor"
+      - "Recite the Rajat mantra"
+      - "Use silver-based jewelry or objects to counteract the dosha"
+
+  - name: "Brahma Dosha"
+    solutions:
+      - "Perform Brahma Puja"
+      - "Offer prayers to Lord Brahma"
+      - "Chant Brahma mantra"
+      - "Donate items related to the Earth element"
+
+  - name: "Shrapit Dosha"
+    solutions:
+      - "Perform Shrapit Dosh Nivaran Puja"
+      - "Recite the mantra 'Om Namah Shivaya'"
+      - "Perform charity work"
+
+  - name: "Mochan Dosha"
+    solutions:
+      - "Engage in spiritual practices and meditation"
+      - "Pray to Lord Shiva for removal of obstacles"
+
+  - name: "Naksatra Dosha"
+    solutions:
+      - "Perform puja to deities associated with the nakshatra"
+      - "Recite appropriate mantras"
+      - "Donate food or clothes to those in need"
+
+  - name: "Kumbh Dosha"
+    solutions:
+      - "Perform Kumbh Vivah (marriage to a banana tree or peepal tree)"
+      - "Chant specific mantras"
+      - "Perform pujas to Lord Vishnu"
+
+  - name: "Dhanakaraka Dosha"
+    solutions:
+      - "Perform Lakshmi Puja"
+      - "Recite wealth-related mantras"
+      - "Donate to charity"
+      - "Ensure proper financial management"
+
+  - name: "Arogya Dosha"
+    solutions:
+      - "Chant health-related mantras"
+      - "Maintain a healthy lifestyle"
+      - "Follow a balanced diet"
+      - "Seek blessings from Lord Dhanvantri"
+
+  - name: "Guru Dosha"
+    solutions:
+      - "Perform Guru Puja"
+      - "Recite Guru mantra ('Om Brihaspataye Namah')"
+      - "Donate to teachers or spiritual guides"
+      - "Engage in learning activities"
+
+  - name: "Kaal Bhairav Dosha"
+    solutions:
+      - "Recite Kaal Bhairav mantra"
+      - "Offer prayers at Kaal Bhairav temples"
+      - "Perform regular charitable deeds"
+
+  - name: "Navagraha Dosha"
+    solutions:
+      - "Perform Navagraha Puja"
+      - "Offer prayers to the nine planets"
+      - "Wear gemstones according to the specific dosha"
+
+  - name: "Vish Yog"
+    solutions:
+      - "Perform Vish Yog Nivaran Puja"
+      - "Recite mantras to appease the planets involved"
+      - "Work on improving relationships through counseling or spiritual practices"
+
+  - name: "Lal Kitab Dosha"
+    solutions:
+      - "Perform remedies prescribed by the Lal Kitab"
+      - "Offer specific items to temples"
+      - "Perform prescribed rituals"
+
+  - name: "Grahan Dosha"
+    solutions:
+      - "Perform Grahan Dosh Nivaran Puja"
+      - "Chant mantras for protection"
+      - "Avoid starting important tasks during an eclipse"
+
+  - name: "Vish Kanya Dosha"
+    solutions:
+      - "Perform specific pujas to remove the dosha"
+      - "Recite mantras to neutralize the influence"
+      - "Engage in purification rituals"

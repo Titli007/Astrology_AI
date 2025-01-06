@@ -1,0 +1,450 @@
+questions_and_services:
+  - question: "When will I get married?"
+    relevant_services:
+      - Mangal Dosha
+      - Detailed Kundli Matching
+      
+  - question: "Is my partner compatible with me?"
+    relevant_services:
+      - Nakshatra Porutham
+      - Thirumana Porutham
+      - Porutham
+      
+  - question: "Do we have Manglik Dosha in our charts?"
+    relevant_services:
+      - Mangal Dosha
+      - Papasamyam Check
+      
+  - question: "What are the favorable timings for my wedding?"
+    relevant_services:
+      - Panchang
+      - Auspicious Period
+      - Gowri Nalla Neram
+      
+  - question: "Will my marriage be arranged or love?"
+    relevant_services:
+      - Yogas
+      - Detailed Kundli Matching
+      
+  - question: "Are there any negative influences on my marriage?"
+    relevant_services:
+      - Inauspicious Yogas
+      - Papasamyam Check
+      
+  - question: "Is my partner's Nakshatra compatible with mine?"
+    relevant_services:
+      - Nakshatra Porutham
+      - Detailed Nakshatra Porutham
+      
+  - question: "How many Poruthams do we match?"
+    relevant_services:
+      - Porutham
+      - Detailed Porutham
+      
+  - question: "Will I marry someone from a different culture or country?"
+    relevant_services:
+      - Yogas
+      - Detailed Kundli
+      
+  - question: "Are there any Yogas influencing my married life?"
+    relevant_services:
+      - Yoga
+      - Detailed Yoga
+      
+  - question: "When will I get a job?"
+    relevant_services:
+      - Dasha Periods
+      - Planet Position
+      
+  - question: "Will I succeed in my current job?"
+    relevant_services:
+      - Yoga
+      - Daily Prediction
+      
+  - question: "What is my financial future?"
+    relevant_services:
+      - Sarvashtakavarga
+      - Planet Relationship
+      - Detailed Kundli
+      
+  - question: "Should I start a new business?"
+    relevant_services:
+      - Panchang
+      - Detailed Panchang
+      - Auspicious Period
+      
+  - question: "Which profession suits me the best?"
+    relevant_services:
+      - Planet Relationship
+      - Yogas
+      
+  - question: "Will I face financial problems in the future?"
+    relevant_services:
+      - Papasamyam
+      - Ashtakavarga
+      
+  - question: "How can I improve my wealth and success?"
+    relevant_services:
+      - Yoga
+      - Auspicious Yoga
+      
+  - question: "Will I gain money through inheritance?"
+    relevant_services:
+      - Dasha Periods
+      - Yogas
+      
+  - question: "Are there obstacles in my career growth?"
+    relevant_services:
+      - Mangal Dosha
+      
+  - question: "Is this year favorable for investments?"
+    relevant_services:
+      - Panchang
+      - Daily Prediction
+      
+  - question: "Will I face any major health issues?"
+    relevant_services:
+      - Detailed Kundli
+      - Yoga
+      
+  - question: "How can I maintain good health?"
+    relevant_services:
+      - Panchang
+      - Daily Prediction
+      - Chandra Bala
+      
+  - question: "Are there any doshas affecting my health?"
+    relevant_services:
+      - Papasamyam Check
+      - Detailed Kundli
+      
+  - question: "What are the favorable timings for surgeries?"
+    relevant_services:
+      - Hora Timing
+      - Panchang
+      
+  - question: "Will my health improve this year?"
+    relevant_services:
+      - Advanced Daily Prediction
+      
+  - question: "What remedies can improve my health?"
+    relevant_services:
+      - Nakshatra Porutham
+      - Yoga
+      
+  - question: "Are there any Yogas related to my health?"
+    relevant_services:
+      - Yoga
+      - Detailed Yoga
+      
+  - question: "How will the planetary positions affect my health?"
+    relevant_services:
+      - Planet Position
+      - Divisional Planet Position
+      
+  - question: "When will I have children?"
+    relevant_services:
+      - Detailed Kundli
+      
+  - question: "How many children will I have?"
+    relevant_services:
+      - Dasha Periods
+      
+  - question: "Will I face issues in family harmony?"
+    relevant_services:
+      - Kundli Matching
+      - Yogas
+      
+  - question: "Are there any doshas affecting my family?"
+    relevant_services:
+      - Papasamyam Check
+      - Mangal Dosha
+      
+  - question: "Will I succeed in higher education?"
+    relevant_services:
+      - Dasha Periods
+      - Yogas
+      
+  - question: "What is the best field of study for me?"
+    relevant_services:
+      - Planet Relationship
+      
+  - question: "Will I get a scholarship or funding?"
+    relevant_services:
+      - Sarvashtakavarga
+      - Dasha Periods
+      
+  - question: "Should I study abroad?"
+    relevant_services:
+      - Yogas
+      
+  - question: "Will I travel abroad this year?"
+    relevant_services:
+      - Yogas
+      - Planet Position
+      
+  - question: "Are there any doshas preventing travel?"
+    relevant_services:
+      - Papasamyam Check
+      - Detailed Kundli
+      
+  - question: "Is this year favorable for relocation?"
+    relevant_services:
+      - Dasha Periods
+      - Planet Relationship
+      
+  - question: "What should I focus on today?"
+    relevant_services:
+      - Daily Prediction
+      - Hora Timing
+      
+  - question: "Is today favorable for new beginnings?"
+    relevant_services:
+      - Choghadiya
+      - Panchang
+      
+  - question: "Will I have good luck today?"
+    relevant_services:
+      - Daily Prediction
+      - Chandra Bala
+      
+  - question: "How will my love life be today?"
+    relevant_services:
+      - Daily Love Prediction
+      - Nakshatra Porutham
+      
+  - question: "Are there any inauspicious timings today?"
+    relevant_services:
+      - Inauspicious Period
+      - Panchang
+      
+  - question: "What are my spiritual strengths?"
+    relevant_services:
+      - Yoga
+      - Detailed Yoga
+      
+  - question: "Will I achieve peace of mind through meditation?"
+    relevant_services:
+      - Ashtakavarga
+      
+  - question: "Are there any Yogas favoring spiritual growth?"
+    relevant_services:
+      - Yoga
+      - Auspicious Yoga
+      
+  - question: "Will I face legal issues in the future?"
+    relevant_services:
+      - Dasha Periods
+      
+  - question: "How will planetary transits affect my year?"
+    relevant_services:
+      - Sade Sati
+      - Detailed Sade Sati
+      - Planet Position
+      
+  - question: "What are my lucky directions?"
+    relevant_services:
+      - Gowri Nalla Neram
+      - Disha Shool
+      
+  - question: "What are my lucky colors and stones?"
+    relevant_services:
+      - Nakshatra Porutham
+      - Panchang
+      
+  - question: "Is this year favorable for starting a new business?"
+    relevant_services:
+      - Panchang
+      - Yoga
+      - Detailed Kundli
+      
+  - question: "Will my business succeed in the future?"
+    relevant_services:
+      - Yogas
+      - Dasha Periods
+      
+  - question: "What type of business is best for me?"
+    relevant_services:
+      - Planet Relationship
+      - Yogas
+      
+  - question: "Should I enter into a partnership?"
+    relevant_services:
+      - Kundli Matching
+      - Nakshatra Porutham
+      
+  - question: "Are there any financial risks in my business?"
+    relevant_services:
+      - Sarvashtakavarga
+      - Ashtakavarga
+      
+  - question: "When should I expand my business?"
+    relevant_services:
+      - Panchang
+      - Auspicious Period
+      
+  - question: "Is foreign trade beneficial for me?"
+    relevant_services:
+      - Planet Position
+      - Yogas
+      
+  - question: "Are there any planetary influences on my business?"
+    relevant_services:
+      - Divisional Planet Position
+      
+  - question: "Should I invest in the stock market this year?"
+    relevant_services:
+      - Detailed Kundli
+      - Dasha Periods
+      
+  - question: "Are there any obstacles in my business growth?"
+    relevant_services:
+      - Mangal Dosha
+      
+  - question: "How can I overcome challenges in business?"
+    relevant_services:
+      - Papasamyam Check
+      - Yogas
+      - Remedies
+      
+  - question: "Will I achieve financial stability?"
+    relevant_services:
+      - Sarvashtakavarga
+      - Detailed Kundli
+      
+  - question: "What are my wealth-building opportunities?"
+    relevant_services:
+      - Dasha Periods
+      - Planet Relationship
+      
+  - question: "Should I buy property or land this year?"
+    relevant_services:
+      - Panchang
+      - Auspicious Period
+      
+  - question: "Are there any Yogas for sudden financial gains?"
+    relevant_services:
+      - Yogas
+      - Detailed Yoga
+      
+  - question: "How will planetary transits affect my wealth?"
+    relevant_services:
+      - Sade Sati
+      - Planet Relationship
+      
+  - question: "Will I inherit any property or assets?"
+    relevant_services:
+      - Yogas
+      
+  - question: "What is the right time to start a new course?"
+    relevant_services:
+      - Panchang
+      - Hora Timing
+      
+  - question: "Will I clear my competitive exams?"
+    relevant_services:
+      - Dasha Periods
+      
+  - question: "What skills should I focus on?"
+    relevant_services:
+      - Yogas
+      
+  - question: "Should I invest in real estate this year?"
+    relevant_services:
+      - Panchang
+      - Sarvashtakavarga
+      
+  - question: "Is this a good time to sell my property?"
+    relevant_services:
+      - Panchang
+      - Inauspicious Period
+      
+  - question: "Will I face legal disputes regarding property?"
+    relevant_services:
+      - Dasha Periods
+      
+  - question: "Are there remedies for my health issues?"
+    relevant_services:
+      - Papasamyam Check
+      - Yoga
+      
+  - question: "How can I ensure good health for my family?"
+    relevant_services:
+      - Chandra Bala
+      
+  - question: "How will my relationship with my siblings evolve?"
+    relevant_services:
+      - Detailed Kundli
+      
+  - question: "Are there any disputes in my family's future?"
+    relevant_services:
+      - Papasamyam Check
+      - Yogas
+      
+  - question: "Should I travel for business this year?"
+    relevant_services:
+      - Yogas
+      
+  - question: "Will I face issues during my travels?"
+    relevant_services:
+      - Papasamyam Check
+      
+  - question: "What are the most auspicious timings for today?"
+    relevant_services:
+      - Panchang
+      - Choghadiya
+      
+  - question: "Will I have a productive day today?"
+    relevant_services:
+      - Daily Prediction
+      - Hora Timing
+      
+  - question: "Are there any Yogas influencing today's events?"
+    relevant_services:
+      - Yogas
+      - Daily Prediction
+      
+  - question: "How can I align with my spiritual path?"
+    relevant_services:
+      - Yoga
+      - Auspicious Yoga
+      
+  - question: "Are there favorable timings for rituals?"
+    relevant_services:
+      - Panchang
+      - Gowri Nalla Neram
+      
+  - question: "Will I face any legal challenges?"
+    relevant_services:
+      - Dasha Periods
+      
+  - question: "Are there remedies for legal issues?"
+    relevant_services:
+      - Papasamyam Check
+      - Yogas
+      
+  - question: "What is the overall prediction for this year?"
+    relevant_services:
+      - Detailed Kundli
+      - Sade Sati
+      
+  - question: "How will planetary transits affect my life?"
+    relevant_services:
+      - Planet Position
+      - Yogas
+      
+  - question: "What are my strengths and weaknesses?"
+    relevant_services:
+      - Yoga
+      - Nakshatra Details
+      
+  - question: "What are my lucky colors and directions?"
+    relevant_services:
+      - Panchang
+      - Disha Shool
+      
+  - question: "What are my best days for making decisions?"
+    relevant_services:
+      - Panchang
+      - Choghadiya
+      - Hora Timing

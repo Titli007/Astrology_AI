@@ -1,0 +1,22 @@
+# Ignore Python virtual environments
+venv/
+*.pyc
+__pycache__/
+
+# Ignore environment files
+.env
+
+# Ignore log files
+*.log
+
+# Ignore compiled Python files
+*.pyo
+*.pyd
+
+# Ignore cache files
+*.cache
+*.egg-info/
+
+# Ignore other temporary files
+.DS_Store
+Thumbs.db
