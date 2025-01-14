@@ -60,8 +60,8 @@ from astrology_calculations.utils.get_token import get_access_token
 from datetime import datetime, date
 
 
-def first_function(person, gender, location, dob, tob):
-    kundli = kundli_creator(person, gender, location, dob, tob)
+def first_function(person, gender, location, dob, tob, set_token):
+    kundli = kundli_creator(person, gender, location, dob, tob, set_token)
     print("==============================", kundli)
     return kundli
 
@@ -172,7 +172,7 @@ def main():
                     return
 
                 # Call the first function
-                response_from_first_function = first_function(person, gender, location, dob, tob)
+                response_from_first_function = first_function(person, gender, location, dob, tob, set_token)
 
                 # Call the second function
                 final_response = second_function(response_from_first_function, user_question)

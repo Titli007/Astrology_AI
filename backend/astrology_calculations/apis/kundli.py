@@ -6,10 +6,10 @@ from astrology_calculations.utils.get_user_details import user_detail_fetcher  #
 
 load_dotenv()
 
-access_token = os.getenv('PROKERALA_ACCESS_TOKEN')
+# access_token = os.getenv('PROKERALA_ACCESS_TOKEN')
 
 
-def get_detailed_kundli(coordinates, date_time):
+def get_detailed_kundli(coordinates, date_time, access_token):
     url = f"https://api.prokerala.com/v2/astrology/kundli?ayanamsa=1&coordinates={coordinates}&datetime={date_time}&la=en"
     headers = {
         'Authorization': f"Bearer {access_token}"
@@ -24,9 +24,9 @@ def get_detailed_kundli(coordinates, date_time):
 # get_detailed_kundli('22.615606%2C22.615606','2024-12-26T15%3A30%3A00%2B05%3A30')
 
 
-def kundli_creator(person, gender, location, dob, tob) : 
+def kundli_creator(person, gender, location, dob, tob, access_token) : 
     user_details = user_detail_fetcher(person , gender, location, dob, tob) 
-    kundli_result = get_detailed_kundli(user_details['coordinates'], user_details['date_time'])
+    kundli_result = get_detailed_kundli(user_details['coordinates'], user_details['date_time'], access_token)
     print("kundli_result======================================",kundli_result)
     return kundli_result
 
