@@ -1,7 +1,8 @@
 import requests
 from dotenv import load_dotenv
 import os
-# from ..utils.get_user_details import user_detail_fetcher
+from astrology_calculations.utils.get_user_details import user_detail_fetcher  # Use absolute import
+
 
 load_dotenv()
 
@@ -16,6 +17,17 @@ def get_detailed_kundli(coordinates, date_time):
 
     response = requests.get(url=url, headers=headers)
 
-    print(response.json())
+    print("========================/////////////////////////////////////////",response.json())
 
-get_detailed_kundli('22.615606%2C22.615606','2024-12-26T15%3A30%3A00%2B05%3A30')
+    return response.json()
+
+# get_detailed_kundli('22.615606%2C22.615606','2024-12-26T15%3A30%3A00%2B05%3A30')
+
+
+def kundli_creator(person, gender, location, dob, tob) : 
+    user_details = user_detail_fetcher(person , gender, location, dob, tob) 
+    kundli_result = get_detailed_kundli(user_details['coordinates'], user_details['date_time'])
+    print("kundli_result======================================",kundli_result)
+    return kundli_result
+
+# kundli_creator("user","female" ,"howrah+westbengal+india", "2024-12-26", "15:30:00") #"user","female" ,"howrah+westbengal+india", "2024-12-26", "15:30:00"

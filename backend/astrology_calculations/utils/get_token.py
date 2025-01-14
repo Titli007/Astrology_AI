@@ -1,7 +1,7 @@
 import requests
 from dotenv import load_dotenv, set_key
 import os
-import schedule
+# import schedule
 import time
 from pathlib import Path
 
@@ -39,17 +39,18 @@ def get_access_token():
             return access_token
         else:
             print("Access token not found in the response.")
+            return None
     else:
         print(f"Failed to fetch token: {response.json()}")
         return None
     
 
 
-get_access_token()
+# get_access_token()
 
-schedule.every(3).hours.do(get_access_token)
+# schedule.every(3).hours.do(get_access_token)
 
-# Keep the script running to execute the scheduled task
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+# # Keep the script running to execute the scheduled task
+# while True:
+#     schedule.run_pending()
+#     time.sleep(1)

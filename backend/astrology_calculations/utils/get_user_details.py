@@ -41,13 +41,14 @@ def date_time_formatter(dob, tob, offset):
 
 
 def user_detail_fetcher(person='user', gender=None, location=None, dob= None, tob= None):
+    print("awd", gender, location, dob, tob)
     result = get_cordinates(location)
     coordinates = str(result['lat']) + '%2C' + str(result['lon'])
     offset = result['timezone_offset']
 
     date_time = date_time_formatter(dob, tob, offset=offset)
 
-    print(coordinates, date_time)
+    print("qwqwrd",coordinates, date_time)
 
     return {
         "person" : person,
@@ -58,5 +59,5 @@ def user_detail_fetcher(person='user', gender=None, location=None, dob= None, to
 
 # gender, datetime, address
 
-sf = user_detail_fetcher("partner", "female" ,"howrah+westbengal+india", "2024-12-26", "15:30:00")
-print(sf)
+# sf = user_detail_fetcher("partner", "female" ,"howrah+westbengal+india", "2024-12-26", "15:30:00")
+# print(sf)

@@ -1,6 +1,9 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 from dotenv import load_dotenv
+import astrology_calculations.apis.kundli as kundli
+import yaml
+from datetime import date
 
 load_dotenv()
 
@@ -14,108 +17,65 @@ class LLMProcessor:
 
         return result.content
     
-def generate_response(user_message):
-    prompt = f'''
-        When will I get married?
-        Is my partner compatible with me?
-        Do we have Manglik Dosha in our charts?
-        What are the favorable timings for my wedding?
-        Will my marriage be arranged or love?
-        Are there any negative influences on my marriage?
-        Is my partner's Nakshatra compatible with mine?
-        How many Poruthams do we match?
-        Will I marry someone from a different culture or country?
-        Are there any Yogas influencing my married life?
-        When will I get a job?
-        Will I succeed in my current job?
-        What is my financial future?
-        Should I start a new business?
-        Which profession suits me the best?
-        Will I face financial problems in the future?
-        How can I improve my wealth and success?
-        Will I gain money through inheritance?
-        Are there obstacles in my career growth?
-        Is this year favorable for investments?
-        Will I face any major health issues?
-        How can I maintain good health?
-        Are there any doshas affecting my health?
-        What are the favorable timings for surgeries?
-        Will my health improve this year?
-        What remedies can improve my health?
-        Are there any Yogas related to my health?
-        How will the planetary positions affect my health?
-        When will I have children?
-        How many children will I have?
-        Will I face issues in family harmony?
-        Are there any doshas affecting my family?
-        Will I succeed in higher education?
-        What is the best field of study for me?
-        Will I get a scholarship or funding?
-        Should I study abroad?
-        Will I travel abroad this year?
-        Are there any doshas preventing travel?
-        Is this year favorable for relocation?
-        What should I focus on today?
-        Is today favorable for new beginnings?
-        Will I have good luck today?
-        How will my love life be today?
-        Are there any inauspicious timings today?
-        What are my spiritual strengths?
-        Will I achieve peace of mind through meditation?
-        Are there any Yogas favoring spiritual growth?
-        Will I face legal issues in the future?
-        How will planetary transits affect my year?
-        What are my lucky directions?
-        What are my lucky colors and stones?
-        Is this year favorable for starting a new business?
-        Will my business succeed in the future?
-        What type of business is best for me?
-        Should I enter into a partnership?
-        Are there any financial risks in my business?
-        When should I expand my business?
-        Is foreign trade beneficial for me?
-        Are there any planetary influences on my business?
-        Should I invest in the stock market this year?
-        Are there any obstacles in my business growth?
-        How can I overcome challenges in business?
-        Will I achieve financial stability?
-        What are my wealth-building opportunities?
-        Should I buy property or land this year?
-        Are there any Yogas for sudden financial gains?
-        How will planetary transits affect my wealth?
-        Will I inherit any property or assets?
-        What is the right time to start a new course?
-        Will I clear my competitive exams?
-        What skills should I focus on?
-        Should I invest in real estate this year?
-        Is this a good time to sell my property?
-        Will I face legal disputes regarding property?
-        Are there remedies for my health issues?
-        How can I ensure good health for my family?
-        How will my relationship with my siblings evolve?
-        Are there any disputes in my family's future?
-        Should I travel for business this year?
-        Will I face issues during my travels?
-        What are the most auspicious timings for today?
-        Will I have a productive day today?
-        Are there any Yogas influencing today's events?
-        How can I align with my spiritual path?
-        Are there favorable timings for rituals?
-        Will I face any legal challenges?
-        Are there remedies for legal issues?
-        What is the overall prediction for this year?
-        How will planetary transits affect my life?
-        What are my strengths and weaknesses?
-        What are my lucky colors and directions?
-        What are my best days for making decisions?
+def read_chat_response_yaml():
+    file_path = os.path.join(os.path.dirname(__file__), "chat_response.yaml")
+    try :
+        with open(file_path, "r") as file:
+            yaml_content = yaml.safe_load(file)
+            return str(yaml_content)
+    except FileNotFoundError:
+        return f"Error: The file at {file_path} was not found."
+    except yaml.YAMLError as e:
+        return f"Error parsing YAML file: {e}"
+    
+def read_dosha_yaml():
+    file_path = os.path.join(os.path.dirname(__file__), "dosha.yaml")
+    try :
+        with open(file_path, "r") as file:
+            yaml_content = yaml.safe_load(file)
+            return str(yaml_content)
+    except FileNotFoundError:
+        return f"Error: The file at {file_path} was not found."
+    except yaml.YAMLError as e:
+        return f"Error parsing YAML file: {e}"
+    
+    
+def generate_response(user_kundli, user_message):
+    today = date.today()
 
-        seen this question and tell me which question is closely related to this : 
-        {user_message}
-            '''
+    chat_response = read_chat_response_yaml()
+    dosha = read_dosha_yaml()
+
+    prompt = f'''
+
+    You are a seasoned astrologer with over 30 years of experience, known for your humble and approachable demeanor. Your expertise lies in interpreting kundlis and providing clear, concise, and insightful answers to questions about life, career, relationships, and more. You have a unique ability to simplify complex astrological concepts into short, precise, and meaningful responses that resonate deeply with the individual.
+
+    Your task is to answer the user’s question based on their provided kundli. Ensure your response is brief, to the point, and spans no more than 2-3 paragraphs. Avoid unnecessary elaboration or fluff, and focus solely on delivering the most relevant and accurate insights.
+
+    Here is the user’s kundli: {user_kundli}. The user’s question is: {user_message} .
+    
+    today is {today} so if user ask to predict any date dont give proper date give a range , if question is career related give a date 2 3 months after from today and if the question is marriage related give answer 2 3 years after from today, please mention the month name or year.
+
+    Keep in mind that your response should be empathetic yet straightforward, addressing the core of the question without straying into unrelated details. Your tone should remain humble and respectful, reflecting your deep understanding of astrology and your commitment to helping the user.
+
+    For example, if the question is about career prospects, you might briefly highlight key planetary influences, suggest favorable periods, and provide a concise recommendation. If the question is about relationships, you could outline compatibility factors and offer practical advice based on the kundli. Always ensure your response is tailored to the user’s specific situation and question.
+
+    please use this information to generate a response for the user. Remember, clarity, relevance, and empathy are key to delivering a meaningful and impactful answer.
+
+    {chat_response}
+
+
+    and if user ask any dosha related question consider following this : 
+
+    {dosha}
+
+    make user friendly respose and make it more human like. dont use too much astrological terms. make it medium size you can make 2 3 paragraphs. give solution give user friendly answer.
+            
+    '''
 
 
     obj = LLMProcessor()
     response = obj.chatProcess(prompt)
-    print(response)
+    # print(response)
 
-generate_response("hi, when my marriage will happen?")
+    return response
